@@ -86,9 +86,9 @@ section h3 {
 }
 
 .participants-list {
-  list-style-type: disc;
-  padding-left: 22px;
-  margin-bottom: 0;
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
 }
 
 .participants-list li {
@@ -98,6 +98,15 @@ section h3 {
   background: #e3eafc;
   border-radius: 3px;
   padding: 2px 8px;
+}
+
+.delete-participant {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #c00;
+  font-size: 1.2em;
+  padding: 0 4px;
 }
 
 .form-group {
